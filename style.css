@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+body {
+background-color: #1f1e33;
+font-family: "微軟正黑體", sans-serif;
+color:#fff;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+h1 {
+color: #ffffff;
+text-align: center;
+font-weight: bold;
+font-style: italic; /* 斜體 */
+font-size: 40px;
+}
+
+h2 {
+color: #ffffff;
+font-weight: bold;
+font-size: 30px;
+}
+
+
+p {
+font-size: 20px;
+line-height: 1.6;
+}
+
+nav{
+color: #ffffff;
+text-decoration: none;
+margin: 0 15px;
+font-size: 18px;
+}
+
+ul {
+font-size: 20px;
+line-height: 1.6;
+}
