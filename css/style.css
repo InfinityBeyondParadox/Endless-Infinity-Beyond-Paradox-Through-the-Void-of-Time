@@ -75,3 +75,60 @@ color: #c4a93c;
 font-size: 22px;
 text-decoration: none;
 }
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 25px ;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px; /* 調整到圓點的中心 */
+  top: 0;
+  width: 2px; /* 與圓點的邊框寬度一致 */
+  height: 100%;
+  border-radius: 2px;
+  background-color: #4a90e2; /* 添加背景色 */
+}
+
+/*每一格遊戲紀錄的容器 */
+.checkpoint {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 60px; /* 增加左側空間，確保內容不擠壓 */
+}
+
+/* 畫出節點圓點 */
+.checkpoint::after {
+  content: '';
+  position: absolute;
+  left: 0px; 
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  border: 2px solid #a0d54b; 
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.date {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #bdc3c7;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px; 
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #a0d54b; /* 設定顏色 */
+  margin: 20px 0;
+}
